@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="common.css">
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	
+	<header>
+		<a href="#"></a>
+	</header>
+	<main>
+		<div class="flip-modal login">
+			<div class="modal modal-login">
+				<div class="tab">
+					<a class="login" href="#">登陆</a>
+					<a class="register" href="#">注册</a>
+				</div>
+				<div class="content">
+					<form action="/login" method="post">
+						<div class="input-files">
+								<input name="username" type="text" placeholder="用户名">
+						</div>
+						<div class="input-files">
+								<input name="password" type="text" placeholder="密码">
+						</div>
+						<div class="input-files">
+								<input type="submit" value="登陆">
+						</div>
+					</form>	
+				</div>	
+			</div>	
+			<div class="modal modal-register">
+				<div class="tab">
+					<a class="login" href="#">登陆</a>
+					<a class="register" href="#">注册</a>
+			    </div>	
+				<div class="content">
+					<form action="/register" method="post">
+						<div class="input-files">
+								<input name="username" type="text" placeholder="输入用户名">	
+						</div>
+						<div class="input-files">
+								<input name="password" type="text" placeholder="输入密码">
+						</div>
+						<div class="input-files">
+								<input name="password" type="text" placeholder="再次输入密码">
+						</div>
+						<div class="input-files">
+								<input type="submit" value="注册">
+						</div>	
+					</form>			
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="js.js"></script>
+</body>
+</html>
+
+<form action="/login" method="post"></form>
+
+<div class="flip-modal"></div>

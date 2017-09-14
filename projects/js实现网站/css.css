@@ -1,0 +1,69 @@
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-image: url(https://ws3.sinaimg.cn/large/006tNc79gy1fjjbnnunxrj31hc0vw1b4.jpg);
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+	text-align: center;
+}
+header{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.input-files{
+	margin: 5px;
+	padding: 5px;
+}
+
+/* .flip-modal{
+	display: none;
+  } */
+
+.modal{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #fff;
+	width: 400px;
+	box-shadow: 1px 2px 1px 3px rgba(0,0,0,0.24);
+	margin-top: 10px;
+	padding: 16px; 
+}
+
+.modal .content input[type=text],
+.modal .content input[type=password]{
+	padding: 10px 10px 10px 28px;
+	width:100%;
+}
+
+.modal .content input[type=submit]{
+	display: flex;
+	justify-content: flex-start;
+	padding: 6px 10px;
+	border: none;
+	background-color: #F3EEE8; 
+}
+
+/* .flip-modal .modal-register{
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	transition: all 1s;
+} */
+
+main .login .modal-login,
+main .register .modal-register{
+	transform: translate(-50%,-50%) rotateY(0deg);
+	backface-visibility: hidden;
+	transition: all 1s;
+}
+main .login .modal-register,
+main .register .modal-login{
+	transform: translate(-50%,-50%) rotateY(180deg);
+	backface-visibility: hidden;
+	transition: all 1s;
+}
