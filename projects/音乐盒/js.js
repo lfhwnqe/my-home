@@ -56,6 +56,7 @@ $(".music-box .icon-next").addEventListener("click",function(){
         var src = list.song[0].picture
         $(".music-box .music-picture").innerHTML = '<img src="' +src+'">'
         audioObject.play()
+        $(".music-box .icon-play").onclick
 })})
 // audioObject.onplay = function(){
 //     $(".music-picture img").classList.add("transform")
