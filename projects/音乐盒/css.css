@@ -1,0 +1,74 @@
+
+.music-box{
+    /* height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%)
+}
+.music-box .music-panel{
+    width: 320px;
+    height: 276px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.29);
+    padding: 8px 36px 0px 20px;
+}
+.music-box .music{
+    width: 280px;
+    height: 46px;
+}
+.music-box .control{
+    position: relative;
+    float:  left;
+    top: 5px;
+}
+.music-box .info{
+    position: absolute;
+    right: 19px;
+    width: 148px;
+    height: 47px;
+    overflow: hidden;
+}
+.music-box .progress-total{
+    width: 280px;
+    height: 2px;
+    position: relative;
+    top:3.5px;
+    background-color: gray;
+}
+.music-box .progress-now{
+    height: 4.5px;
+    background-color: gray;
+}
+
+.music-box .time{
+    position: relative;
+    float: right;
+    left: 16px;   
+    top: 3px;
+}
+.music-box i{
+   font-size: 28px;
+}
+.music-box .author{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .music-picture img{
+     border: 3px solid gray;
+     padding: 3px;
+     border-radius: 50%;
+     height: 189px;
+     position: absolute;
+     right: 68px;
+     bottom: 10px;
+ }
+ .transform{
+    transform: rotate(20000deg);
+    transition: all 600s;
+ }
+ .transform1{
+    transform: rotate(25000deg);
+    transition: all 600s;
+ }
