@@ -1,27 +1,35 @@
 body{
-    max-width: 400px;
+    /* max-width: 400px;
     max-height: 600px;
     min-width: 320px;
-    min-height: 600px;
-    border: 1px solid red;
+    min-height: 600px; */
+    height: 100%;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, .3);
     position: relative;
+    background-image: url(https://ws4.sinaimg.cn/large/006tNc79gy1fjzjozhln2j31hc0zl170.jpg);
+    /* background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-size: cover;
 }
 nav{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 40px;
 }
 header{
     text-align: center;
     height: 40px;
 }
 main{
-    height: calc(600px - 60px - 40px);
-}
-.today{
-    width: 100%;
+    /* height: calc(600px - 60px - 40px); */
     height: 100%;
+}
+.today,.week,.suggestion{
+    width: 100%;
+    height: 80%;
+    margin-top: 50px;
     /* display: flex;
     justify-content: center;
     align-items: center;*/
@@ -45,7 +53,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5px;
 } 
+
 
 
 nav>ul{
@@ -54,10 +64,22 @@ nav>ul{
 nav>ul>li{
     display: inline-block;
     text-align: center;
-    width: 32.6%;
+    width: 49.5%;
     height: 100%;
+    cursor: pointer;
 }
 
-div,li{
+/* div,li{
     border: 1px solid yellow;
+} */
+.active{
+    display: none;
+}
+.week .future{
+    height: calc(100% / 7);
+    font-size: 28px;
+    text-align: center;
+}
+.week .week-icon{
+    height: 40px;
 }
