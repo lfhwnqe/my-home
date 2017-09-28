@@ -10,7 +10,7 @@ function $$(selector){
 // 封装ajax
 function getMusicList(callback){
     var xhr = new XMLHttpRequest()
-    xhr.open("GET","http://api.jirengu.com/fm/getSong.php",true)
+    xhr.open("GET","//api.jirengu.com/fm/getSong.php",true)
     xhr.onload = function(){
         if((xhr.status>=200 && xhr.status <300) || xhr.status ===304){
             callback(JSON.parse(xhr.responseText))
