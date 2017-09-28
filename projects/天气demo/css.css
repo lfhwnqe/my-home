@@ -21,6 +21,7 @@ nav{
 header{
     text-align: center;
     height: 40px;
+    font-size: 28px;
 }
 main{
     /* height: calc(600px - 60px - 40px); */
@@ -43,6 +44,7 @@ main{
 }
 .today .date{
     height: 20%;
+    font-size: 28px;
 }
 .today .temperature,#weather,.date{
     display: flex;
@@ -67,6 +69,7 @@ nav>ul>li{
     width: 49.5%;
     height: 100%;
     cursor: pointer;
+    font-size: 28px;
 }
 
 /* div,li{
