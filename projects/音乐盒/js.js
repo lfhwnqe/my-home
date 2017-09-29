@@ -56,9 +56,11 @@ var click_next = function(){
 }
 
 
-$(".music-box .icon-play").addEventListener("click", function () {
+$(".music-box .icon-play").addEventListener("click", function (e) {
     audioObject.play()
     $(".music-picture #roll-img").setAttribute("style", "animation-play-state: running;")
+    console.log(this)
+    this.setAttribute("font-size", "50px;")
 })
 
 $(".music-box .icon-pause").addEventListener("click", function () {
@@ -87,9 +89,11 @@ setInterval(function () {
 
 
 $(".music-box .progress-total").addEventListener("click", function (e) {
-    audioObject.currentTime = e.offsetX / 280 * audioObject.duration
+    audioObject.currentTime = e.offsetX / 203.75 * audioObject.duration
 })
-
+$(".music-box .progress-now").addEventListener("click", function (e) {
+    audioObject.currentTime = e.offsetX / 203.75 * audioObject.duration
+})
 // setInterval(function () {
 // if(audioObject.ended){
 //     getMusicList(function (list) {
