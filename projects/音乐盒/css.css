@@ -56,19 +56,18 @@
     font-family: Arial, Helvetica, sans-serif;
  }
  .music-picture img{
-     border: 3px solid gray;
+     border: 46px solid black;
      padding: 3px;
      border-radius: 50%;
      height: 189px;
      position: absolute;
      right: 68px;
      bottom: 10px;
+     animation: spin 8s linear infinite;
+     animation-play-state: paused;
  }
- .transform{
-    transform: rotate(20000deg);
-    transition: all 600s;
- }
- .transform1{
-    transform: rotate(25000deg);
-    transition: all 600s;
- }
+ 
+ @keyframes spin{
+    0%{ transform: rotateZ(0deg);}
+    100%{ transform: rotateZ(360deg); }
+  }
