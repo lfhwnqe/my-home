@@ -66,8 +66,8 @@ $(".music-box .icon-next").addEventListener("click", function () {
         $(".music-box .author").innerText = list.song[0].artist
         $(".music-picture #roll-img").setAttribute("src", list.song[0].picture)
         audioObject.play()
+        $(".music-picture #roll-img").setAttribute("style", "animation-play-state: running;")
     })
-    $(".music-picture #roll-img").setAttribute("style", "animation-play-state: running;")
 })
 
 
