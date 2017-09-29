@@ -41,10 +41,19 @@ getMusicList(function (list) {
 
 
 
-var test = function () {
-    audioObject.play()
-}
 
+var click_next = function(){
+    getMusicList(function (list) {
+        // var str = list.song[0].picture
+        console.log(list.song[0].picture)
+        audioObject.src = list.song[0].url
+        $(".music-box .title").innerText = list.song[0].title
+        $(".music-box .author").innerText = list.song[0].artist
+        $(".music-picture #roll-img").setAttribute("src", list.song[0].picture)
+        audioObject.play()
+        $(".music-picture #roll-img").setAttribute("style", "animation-play-state: running;")
+    })
+}
 
 
 $(".music-box .icon-play").addEventListener("click", function () {
@@ -58,16 +67,7 @@ $(".music-box .icon-pause").addEventListener("click", function () {
 })
 
 $(".music-box .icon-next").addEventListener("click", function () {
-    getMusicList(function (list) {
-        // var str = list.song[0].picture
-        console.log(list.song[0].picture)
-        audioObject.src = list.song[0].url
-        $(".music-box .title").innerText = list.song[0].title
-        $(".music-box .author").innerText = list.song[0].artist
-        $(".music-picture #roll-img").setAttribute("src", list.song[0].picture)
-        audioObject.play()
-        $(".music-picture #roll-img").setAttribute("style", "animation-play-state: running;")
-    })
+    click_next()
 })
 
 
@@ -80,6 +80,8 @@ setInterval(function () {
     $(".music-box .time").innerText =
         Math.floor(audioObject.currentTime / 60) + ":" + ((Math.floor(audioObject.currentTime % 60)) < 10 ? "0" + Math.floor(audioObject.currentTime % 60) : Math.floor(audioObject.currentTime % 60))
     $(".music-box .progress-now").style.width = (audioObject.currentTime / audioObject.duration) * 100 + "%"
+
+    
 }, 100)
 
 
@@ -88,4 +90,17 @@ $(".music-box .progress-total").addEventListener("click", function (e) {
     audioObject.currentTime = e.offsetX / 280 * audioObject.duration
 })
 
-
+// setInterval(function () {
+// if(audioObject.ended){
+//     getMusicList(function (list) {
+//         // var str = list.song[0].picture
+//         console.log(list.song[0].picture)
+//         audioObject.src = list.song[0].url
+//         $(".music-box .title").innerText = list.song[0].title
+//         $(".music-box .author").innerText = list.song[0].artist
+//         $(".music-picture #roll-img").setAttribute("src", list.song[0].picture)
+//         audioObject.play()
+//         $(".music-picture #roll-img").setAttribute("style", "animation-play-state: running;")
+audioObject.addEventListener("ended", function(){
+    click_next()
+})
