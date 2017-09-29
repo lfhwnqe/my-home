@@ -58,8 +58,15 @@ $(".music-box .icon-pause").addEventListener("click", function () {
 })
 
 $(".music-box .icon-next").addEventListener("click", function () {
-    getMusicList()
-    audioObject.play()
+    getMusicList(function (list) {
+        // var str = list.song[0].picture
+        console.log(list.song[0].picture)
+        audioObject.src = list.song[0].url
+        $(".music-box .title").innerText = list.song[0].title
+        $(".music-box .author").innerText = list.song[0].artist
+        $(".music-picture #roll-img").setAttribute("src", list.song[0].picture)
+        audioObject.play()
+    })
     $(".music-picture #roll-img").setAttribute("style", "animation-play-state: running;")
 })
 
