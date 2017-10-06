@@ -20,7 +20,9 @@
 
 ### 前端技能
 - 熟练使用html,css,html5,css3,javascript,ajax,jquery,bootstrap，搭建node.js服务器
-### DEMO
+### 项目
+- [音乐fm](https://lfhwnqe.github.io/my-home/projects/music-box/index.html)  
+   + 修改了自动播放的BUG
 - [天气预报demo](https://lfhwnqe.github.io/my-home/projects/%E5%A4%A9%E6%B0%94demo/index.html)   应用:ajax jquery bootstrap javascript   利用ajax发送请求到api，接收数据更新天气
 - [轮播粒子效果](https://lfhwnqe.github.io/my-home/projects/%E8%BD%AE%E6%92%AD%E7%B2%92%E5%AD%90/index.html)  应用:ajax jquery bootstrap javascript
 - [blog](http://www.jianshu.com/u/c9d1c591e337)我的博客
