@@ -1,4 +1,4 @@
-let audioObject = new Audio()
+var audioObject = new Audio()
 var channelId
 var url1 = "https://jirenguapi.applinzi.com/fm/getSong.php?channel="
 var url = url1 + channelId
