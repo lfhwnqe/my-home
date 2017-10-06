@@ -44,6 +44,7 @@
     margin-right: 16.2px; 
     min-height: 120px;
     text-align: center;
+    cursor: pointer;
 }
 .img img{
     max-width: 165px;
@@ -127,6 +128,7 @@ body {
 }
 .bar {
     position: relative;
+    cursor: pointer;
 }
 .bar .now {
     position: absolute;
@@ -142,4 +144,7 @@ body {
     bottom: 0;
     left: 0;
     background-color: rgba(0,0,0,.3)
+}
+.control .iconfont {
+    cursor: pointer;
 }
