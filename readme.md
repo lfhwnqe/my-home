@@ -19,7 +19,7 @@
 与之合作的同时接触了前端开发，遂对前端开发产生浓厚兴趣。因此一边工作一边学习前端知识。
 
 ### 前端技能
-- 熟练使用html,css,html5,css3,javascript,ajax,jquery,bootstrap，搭建node.js服务器
+- 熟练使用html,css,html5,css3,javascript,ES6,ajax,jquery,bootstrap，搭建node.js服务器
 ### 项目
 - [音乐fm](https://lfhwnqe.github.io/my-home/projects/music-box/index.html)  
      1. 修改了自动播放的BUG  
