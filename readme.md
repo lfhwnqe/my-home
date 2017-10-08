@@ -28,3 +28,5 @@
 - [轮播粒子效果](https://lfhwnqe.github.io/my-home/projects/%E8%BD%AE%E6%92%AD%E7%B2%92%E5%AD%90/index.html)  应用:ajax jquery bootstrap javascript
 - [blog](http://www.jianshu.com/u/c9d1c591e337)我的博客
 - [音乐播放器](https://lfhwnqe.github.io/my-home/projects/%E9%9F%B3%E4%B9%90%E7%9B%92/index.html) 应用：纯javascript实现随机播放的播放器 
+- [QQ music](https://lfhwnqe.github.io/my-home/projects/neteasemusic/index.html) 
+    1. 未完成，仅支持iphone6p以上大屏
