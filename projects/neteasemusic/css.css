@@ -1,0 +1,184 @@
+
+
+body {
+    background: #f4f4f4;
+}
+
+header {
+    height: 44px;
+    background: #31c27c;
+    position: relative;
+}
+
+header img {
+    width: 90px;
+    height: 25px;
+    margin: 9px 0 0 10px;
+}
+
+header a {
+    float: right;
+    margin: 9px 10px 0 0;
+    color: #fff;
+    background: #149c5a;
+    border-radius: 99px;
+    line-height: 28px;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+nav {
+    background: #fff;
+    text-align: center
+}
+
+nav>a {
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 33.33vw;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.banner {
+    /* background: red; */
+    min-height: 166px;
+    margin-bottom: 16px;
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.fm ul {
+    overflow: hidden;
+    overflow: hidden;
+    margin-right: -20px;
+}
+
+.fm h2 {
+    margin-bottom: 11px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.fm h3 {
+    height: 36px;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.fm li {
+    float: left;
+    /* width: 50vw; */
+    padding-right: 8px;
+}
+
+.fm img {
+    height: 193px;
+}
+
+.fm a {
+    display: block;
+    background: #fff;
+}
+
+.fm {
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background: yellow; */
+    height: 284px;
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+
+.musicList h2 {
+    margin-bottom: 11px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.musicList h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.musicList p {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.musicList li a {
+    display: block;
+    background: #fff;
+}
+
+.musicList {
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.musicList ul {
+    overflow: hidden;
+    margin-right: -20px;
+}
+
+.musicList>ul>li {
+    float: left;
+    /* height: 242px; */
+    /* width: 50vw; */
+    padding-right: 8px;
+    margin-bottom: 10px;
+}
+
+.musicList li img {
+    width: 193px;
+    height: 193px;
+}
+
+.musicList>p {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.musicList>p>a {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .6);
+}
+
+footer {
+    padding: 15px 0;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer .pc-link {
+    margin-bottom: 16px;
+    color: #000;
+    font-size: 14px;
+}
+
+footer .qq-icon {
+    display: block;
+    width: 82px;
+    height: 24px;
+    margin: 0 auto 10px;
+    background: url("https://y.gtimg.cn/mediastyle/mobile/yqq_v5/img/logo_footer.png?max_age=19830212&d=20151105145423");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10px;
+    color: rgba(0, 0, 0, .5)
+}
