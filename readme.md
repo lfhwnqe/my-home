@@ -22,9 +22,9 @@
 - 熟练使用html,css,html5,css3,javascript,ES6,ajax,jquery,bootstrap，vue，搭建node.js服务器
 ### 项目
 - [住多多网站](https://m.zhudd.com/)
-- [豆瓣电影](http://lfhwnqe.gitee.io/app/)
-- [音乐fm](https://lfhwnqe.github.io/my-home/projects/music-box/index.html)  
-     1. 修改了自动播放的BUG  
+- [豆瓣电影](http://lfhwnqe.gitee.io/app/) 因为
+- [音乐fm](https://lfhwnqe.github.io/my-home/projects/music-box/index.html)  豆瓣api有限制图片展示不出，需要本地才能展示
+     1. 修改了自动播放的BUG  
      2. 增加了es5支持
 - [天气预报demo](https://lfhwnqe.github.io/my-home/projects/%E5%A4%A9%E6%B0%94demo/index.html)   应用:ajax jquery bootstrap javascript   利用ajax发送请求到api，接收数据更新天气
 - [轮播粒子效果](https://lfhwnqe.github.io/my-home/projects/%E8%BD%AE%E6%92%AD%E7%B2%92%E5%AD%90/index.html)  应用:ajax jquery bootstrap javascript
