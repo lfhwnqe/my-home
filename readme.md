@@ -22,6 +22,7 @@
 - 熟练使用html,css,html5,css3,javascript,ES6,ajax,jquery,bootstrap，vue，搭建node.js服务器
 ### 项目
 - [住多多网站](https://m.zhudd.com/)
+- [豆瓣电影](http://lfhwnqe.gitee.io/app/)
 - [音乐fm](https://lfhwnqe.github.io/my-home/projects/music-box/index.html)  
      1. 修改了自动播放的BUG  
      2. 增加了es5支持
