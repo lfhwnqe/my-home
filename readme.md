@@ -13,14 +13,15 @@
 |-|-|-|-|
 |2014.4～2015.6|中之道企业管理咨询公司|营销经理|管理团队／电话销售／会议营销|
 |2015.6～2016-9|跟随个体老板|销售|销售金融服务产品|
-|2016.10～|自由职业||帮朋友做项目＋白酒销售|
+|2016.10～2017-11|重庆住多多科技有限公司||独立开发公司网站，活动网站，后台管理|
 ### 为何要做前端
 2016年与朋友合作做项目，因为其从事it行业[朋友公司网站](https://hiidui.com/index.htm)
 与之合作的同时接触了前端开发，遂对前端开发产生浓厚兴趣。因此一边工作一边学习前端知识。
 
 ### 前端技能
-- 熟练使用html,css,html5,css3,javascript,ES6,ajax,jquery,bootstrap，搭建node.js服务器
+- 熟练使用html,css,html5,css3,javascript,ES6,ajax,jquery,bootstrap，vue，搭建node.js服务器
 ### 项目
+- [住多多网站](m.zhudd.com)
 - [音乐fm](https://lfhwnqe.github.io/my-home/projects/music-box/index.html)  
      1. 修改了自动播放的BUG  
      2. 增加了es5支持
