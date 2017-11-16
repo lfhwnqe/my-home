@@ -21,6 +21,7 @@
 ### 前端技能
 - 熟练使用html,css,html5,css3,javascript,ES6,ajax,jquery,bootstrap，vue，搭建node.js服务器
 ### 项目
+- [我的个人网站](http://lfhwnqe.gitee.io/jianli/)
 - [住多多网站](https://m.zhudd.com/)
 - [vue重构有赞商城](https://github.com/lfhwnqe/vue-youzan)
 - [豆瓣电影](http://lfhwnqe.gitee.io/app/) 因为豆瓣api有限制图片展示不出，需要本地才能展示
